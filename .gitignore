@@ -1,0 +1,6 @@
+db.sqlite3
+.venv
+files
+images
+migrations
+__pycache__
