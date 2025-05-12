@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "beautifulsoup4>=4.13.4",
     "django>=5.2",
+    "djlint>=1.36.4",
     "pillow>=11.1.0",
 ]
