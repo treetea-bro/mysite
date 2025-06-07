@@ -1,3 +1,8 @@
 .margin-for-footer {
-    margin-bottom: 130px;
+  margin-bottom: 130px;
 }
+
+.card:hover {
+  cursor: pointer;
+}
+
