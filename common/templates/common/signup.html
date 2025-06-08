@@ -1,4 +1,10 @@
-{% extends "base.html" %} {% block main_area %}
+{% extends "base.html" %} 
+
+{% block head_title %}
+    {{ post.title }} 회원가입
+{% endblock %}
+
+{% block main_area %}
 <div class="container my-3">
   <form method="post" action="{% url 'common:signup' %}">
     {% csrf_token %} {% include "form_errors.html" %}
